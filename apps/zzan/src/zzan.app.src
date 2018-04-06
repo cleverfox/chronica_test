@@ -1,0 +1,17 @@
+{application, zzan,
+	[{description, "An OTP application"},
+	{vsn, "0.1.0"},
+	{registered, []},
+	{mod, { zzan, []}},
+	{applications,
+		[kernel,
+		stdlib,
+		chronica
+		]},
+	{env,[]},
+	{modules, []},
+
+	{maintainers, []},
+	{licenses, ["Apache 2.0"]},
+	{links, []}
+	]}.
